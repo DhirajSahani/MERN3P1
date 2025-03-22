@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    background: #db5858;
     color: white;
     padding: 15px 20px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #f4a261;
+    color: #17e6b2;
 }
 
 .menu-toggle {
@@ -73,4 +73,11 @@ body {
     .menu-toggle {
         display: block;
     }
+}
+.hero{
+    color: #db5858;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 10px;
 }
