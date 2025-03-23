@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
+import Card from './Card'
 
 function Home() {
     return (
@@ -17,6 +18,10 @@ function Home() {
             <div className="hero">
             <h1>Wel-come To React project</h1>
             </div>
+            <Card title="Home" />
+         
+           
+            
   
   
         </>
