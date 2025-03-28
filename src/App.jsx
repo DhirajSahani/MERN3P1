@@ -6,6 +6,8 @@ import About from './About'
 import Contact from './Contact'
 import Services from './Services'
 import Test from './Test'
+import UseState from './UseState'
+import LearningUseEffect from './UseEffect'
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/Services' element={<Services />} />
         <Route path='/test' element={<Test />} />
+        <Route path='/use-State' element={<UseState />} />
+        <Route path='/use-effect' element={<LearningUseEffect/>}/>
       </Routes>
     </BrowserRouter>
 
